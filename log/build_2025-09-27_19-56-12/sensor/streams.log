@@ -1,0 +1,21 @@
+[1.535s] Invoking command in '/root/ros_ws/build/sensor': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data
+[2.161s] running develop
+[2.239s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+[2.239s]   warnings.warn(
+[2.543s] running egg_info
+[2.543s] writing sensor.egg-info/PKG-INFO
+[2.544s] writing dependency_links to sensor.egg-info/dependency_links.txt
+[2.544s] writing entry points to sensor.egg-info/entry_points.txt
+[2.544s] writing requirements to sensor.egg-info/requires.txt
+[2.545s] writing top-level names to sensor.egg-info/top_level.txt
+[2.549s] reading manifest file 'sensor.egg-info/SOURCES.txt'
+[2.551s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.554s] running build_ext
+[2.556s] Creating /root/ros_ws/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+[2.557s] Installing battery script to /root/ros_ws/install/sensor/lib/sensor
+[2.558s] Installing camera script to /root/ros_ws/install/sensor/lib/sensor
+[2.558s] Installing ultrasonic script to /root/ros_ws/install/sensor/lib/sensor
+[2.558s] 
+[2.559s] Installed /root/ros_ws/build/sensor
+[2.559s] running symlink_data
+[2.672s] Invoked command in '/root/ros_ws/build/sensor' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data

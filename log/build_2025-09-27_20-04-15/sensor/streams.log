@@ -1,0 +1,21 @@
+[1.526s] Invoking command in '/root/ros_ws/build/sensor': PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data
+[2.155s] running develop
+[2.233s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+[2.234s]   warnings.warn(
+[2.539s] running egg_info
+[2.540s] writing sensor.egg-info/PKG-INFO
+[2.540s] writing dependency_links to sensor.egg-info/dependency_links.txt
+[2.541s] writing entry points to sensor.egg-info/entry_points.txt
+[2.541s] writing requirements to sensor.egg-info/requires.txt
+[2.541s] writing top-level names to sensor.egg-info/top_level.txt
+[2.546s] reading manifest file 'sensor.egg-info/SOURCES.txt'
+[2.547s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.551s] running build_ext
+[2.551s] Creating /root/ros_ws/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+[2.553s] Installing battery script to /root/ros_ws/install/sensor/lib/sensor
+[2.554s] Installing camera script to /root/ros_ws/install/sensor/lib/sensor
+[2.554s] Installing ultrasonic script to /root/ros_ws/install/sensor/lib/sensor
+[2.555s] 
+[2.555s] Installed /root/ros_ws/build/sensor
+[2.555s] running symlink_data
+[2.672s] Invoked command in '/root/ros_ws/build/sensor' returned '0': PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data

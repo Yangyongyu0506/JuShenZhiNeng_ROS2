@@ -1,0 +1,5 @@
+[console_scripts]
+battery = sensor.battery:main
+camera = sensor.camera:main
+ultrasonic = sensor.ultrasonic:main
+

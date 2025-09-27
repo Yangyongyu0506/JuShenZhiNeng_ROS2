@@ -1,0 +1,25 @@
+[1.544s] Invoking command in '/root/ros_ws/build/sensor': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data
+[2.144s] running develop
+[2.502s] running egg_info
+[2.503s] creating sensor.egg-info
+[2.503s] writing sensor.egg-info/PKG-INFO
+[2.503s] writing dependency_links to sensor.egg-info/dependency_links.txt
+[2.504s] writing entry points to sensor.egg-info/entry_points.txt
+[2.504s] writing requirements to sensor.egg-info/requires.txt
+[2.504s] writing top-level names to sensor.egg-info/top_level.txt
+[2.505s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.508s] reading manifest file 'sensor.egg-info/SOURCES.txt'
+[2.510s] writing manifest file 'sensor.egg-info/SOURCES.txt'
+[2.513s] running build_ext
+[2.513s] Creating /root/ros_ws/install/sensor/lib/python3.10/site-packages/sensor.egg-link (link to .)
+[2.515s] Installing camera script to /root/ros_ws/install/sensor/lib/sensor
+[2.516s] Installing ultrasonic script to /root/ros_ws/install/sensor/lib/sensor
+[2.517s] 
+[2.517s] Installed /root/ros_ws/build/sensor
+[2.517s] running symlink_data
+[2.518s] creating /root/ros_ws/install/sensor/share/ament_index
+[2.518s] creating /root/ros_ws/install/sensor/share/ament_index/resource_index
+[2.518s] creating /root/ros_ws/install/sensor/share/ament_index/resource_index/packages
+[2.518s] symbolically linking /root/ros_ws/build/sensor/resource/sensor -> /root/ros_ws/install/sensor/share/ament_index/resource_index/packages
+[2.518s] symbolically linking /root/ros_ws/build/sensor/package.xml -> /root/ros_ws/install/sensor/share/sensor
+[2.629s] Invoked command in '/root/ros_ws/build/sensor' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/root/ros_ws/build/sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensor/build --no-deps symlink_data

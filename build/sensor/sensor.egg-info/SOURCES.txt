@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/sensor
+sensor/__init__.py
+sensor/battery.py
+sensor/camera.py
+sensor/ultrasonic.py
+sensor.egg-info/PKG-INFO
+sensor.egg-info/SOURCES.txt
+sensor.egg-info/dependency_links.txt
+sensor.egg-info/entry_points.txt
+sensor.egg-info/requires.txt
+sensor.egg-info/top_level.txt
+sensor.egg-info/zip-safe
