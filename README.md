@@ -7,3 +7,6 @@
 pip install -e .
 ```
   -e 选项是为了创建连接，这样如果出现了问题我们可以直接修改香橙派本地源码而不用再次 pip install
+# 2. ros2
+  我把我在香橙派上写的基于ROS2框架的代码传上来了。
+  上传了5个目录，包括src, log, build, install和launch。我们只需关注src和launch目录。src里面是所有的小车控制代码，launch里面是ros2 launch文件，用于一个命令启动所有节点。
