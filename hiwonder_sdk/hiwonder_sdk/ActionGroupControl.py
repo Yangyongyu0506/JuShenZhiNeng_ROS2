@@ -3,8 +3,8 @@
 import os
 import time
 import sqlite3 as sql
-import yaml_handle
-import Board
+from hiwonder_sdk import yaml_handle
+from hiwonder_sdk import Board
 import pkg_resources
 
 runningAction = False
