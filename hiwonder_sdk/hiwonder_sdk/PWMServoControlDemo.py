@@ -3,7 +3,7 @@
 import sys
 import time
 import signal
-import Board
+from hiwonder_sdk import Board
 
 if sys.version_info.major == 2:
     print('Please run this program with python3!')
