@@ -7,6 +7,7 @@
 pip install -e .
 ```
   -e 选项是为了创建连接，这样如果出现了问题我们可以直接修改香橙派本地源码而不用再次 pip install
+  
   我在9月27日的调试中发现，ros2默认使用的python环境是系统python，而香橙派上默认使用conda base虚拟环境。所以我把hiwonder_sdk以及其他相关依赖都pip install进了系统python中（但愿科协的人会去重装系统）。以后如果我们需要用别的库，比如ultralytics等等，我们就要先执行
 #### bash
 ```bash
