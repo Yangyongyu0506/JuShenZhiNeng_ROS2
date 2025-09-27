@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-import Board
+from hiwonder_sdk import Board
 from smbus2 import SMBus, i2c_msg
 
 # 幻尔科技iic超声波库
