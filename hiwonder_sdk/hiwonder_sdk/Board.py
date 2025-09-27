@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 import sys
 import time
-import yaml_handle
+from hiwonder_sdk import yaml_handle
 import OPi.GPIO as GPIO  # 注释GPIO导入
 from smbus2 import SMBus, i2c_msg
 # 注释掉LED相关导入
 # from rpi_ws281x import PixelStrip
 # from rpi_ws281x import Color as PixelColor
-from ai_pro_pin_map import _BOARD
+from hiwonder_sdk from ai_pro_pin_map import _BOARD
 #幻尔科技raspberrypi扩展板sdk#
 if sys.version_info.major == 2:
     print('Please run this program with python3!')
