@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # coding=utf8
 import math
-import Board
+from hiwonder_sdk import Board
 
 class MecanumChassis:
     # A = 67  # mm
