@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('-1') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+warning: no files found matching 'hiwonder_sdk/data/*'
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+  warnings.warn(

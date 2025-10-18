@@ -1,0 +1,296 @@
+[0.025s] Invoking command in '/root/ros_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /root/ros_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/my_interfaces
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.324s] -- The CXX compiler identification is GNU 11.4.0
+[0.341s] -- Detecting C compiler ABI info
+[0.576s] -- Detecting C compiler ABI info - done
+[0.598s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.608s] -- Detecting CXX compiler ABI info
+[0.832s] -- Detecting CXX compiler ABI info - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.851s] -- Detecting CXX compile features
+[0.852s] -- Detecting CXX compile features - done
+[0.856s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.525s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.544s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.485s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.654s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.656s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.721s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.721s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.722s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.722s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.778s] -- Found PythonExtra: .so  
+[3.862s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.894s] -- Added test 'lint_cmake' to check CMake code style
+[3.896s] -- Added test 'xmllint' to check XML markup files
+[3.901s] -- Configuring done
+[3.964s] -- Generating done
+[3.987s] -- Build files have been written to: /root/ros_ws/build/my_interfaces
+[4.004s] Invoked command in '/root/ros_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /root/ros_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros_ws/install/my_interfaces
+[4.007s] Invoking command in '/root/ros_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /root/ros_ws/build/my_interfaces -- -j3 -l3
+[4.115s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.431s] [  2%] Built target my_interfaces__cpp
+[5.495s] [  2%] Built target ament_cmake_python_copy_my_interfaces
+[5.517s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.362s] [  6%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/armabs__type_support.cpp.o[0m
+[6.984s] [  8%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/armrel__type_support.cpp.o[0m
+[7.604s] [ 10%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/doclamp__type_support.cpp.o[0m
+[8.227s] [ 12%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so[0m
+[8.312s] [ 12%] Built target my_interfaces__rosidl_typesupport_cpp
+[8.333s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.427s] [ 17%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/armabs__type_support.cpp.o[0m
+[10.379s] [ 19%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/armrel__type_support.cpp.o[0m
+[11.340s] [ 21%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/doclamp__type_support.cpp.o[0m
+[12.290s] [ 23%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.485s] [ 23%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.508s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.487s] [ 27%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/armabs__type_support.cpp.o[0m
+[14.375s] [ 29%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/armrel__type_support.cpp.o[0m
+[15.267s] [ 31%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/doclamp__type_support.cpp.o[0m
+[16.151s] [ 34%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.236s] [ 34%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[16.811s] running egg_info
+[16.812s] creating my_interfaces.egg-info
+[16.813s] writing my_interfaces.egg-info/PKG-INFO
+[16.813s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[16.814s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[16.814s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[16.819s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[16.820s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[16.911s] [ 34%] Built target ament_cmake_python_build_my_interfaces_egg
+[16.934s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[18.278s] [ 38%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c.o[0m
+[18.424s] [ 40%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.o[0m
+[18.558s] [ 42%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armrel__functions.c.o[0m
+[18.688s] [ 44%] [32m[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so[0m
+[18.765s] [ 44%] Built target my_interfaces__rosidl_generator_c
+[18.788s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.993s] [ 48%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armabs__type_support_c.cpp.o[0m
+[20.788s] [ 51%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armrel__type_support_c.cpp.o[0m
+[21.582s] [ 53%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/doclamp__type_support_c.cpp.o[0m
+[22.383s] [ 55%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[22.581s] [ 55%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[22.603s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.428s] [ 59%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/armabs__type_support.cpp.o[0m
+[23.502s] [ 61%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/armrel__type_support.cpp.o[0m
+[23.574s] [ 63%] [32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/doclamp__type_support.cpp.o[0m
+[23.648s] [ 65%] [32m[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so[0m
+[23.733s] [ 65%] Built target my_interfaces__rosidl_typesupport_c
+[23.756s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.773s] [ 70%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/armabs__type_support.c.o[0m
+[24.851s] [ 72%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/doclamp__type_support.c.o[0m
+[24.927s] [ 74%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/armrel__type_support.c.o[0m
+[25.005s] [ 76%] [32m[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[25.068s] [ 76%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[25.112s] [ 76%] Built target my_interfaces
+[25.157s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.995s] [ 78%] Built target my_interfaces__py
+[27.039s] [ 80%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_armabs_s.c.o[0m
+[27.279s] [ 82%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_doclamp_s.c.o[0m
+[27.513s] [ 85%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_armrel_s.c.o[0m
+[27.753s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so[0m
+[27.835s] [ 87%] Built target my_interfaces__rosidl_generator_py
+[27.881s] [ 89%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.129s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.202s] [ 91%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[28.248s] [ 93%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[28.501s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.573s] [ 95%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[28.619s] [ 97%] [32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.871s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[28.941s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[28.965s] Invoked command in '/root/ros_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /root/ros_ws/build/my_interfaces -- -j3 -l3
+[28.987s] Invoking command in '/root/ros_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /root/ros_ws/build/my_interfaces
+[29.004s] -- Install configuration: ""
+[29.005s] -- Installing: /root/ros_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[29.005s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.005s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[29.006s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[29.006s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.006s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/doclamp.h
+[29.006s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.007s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__functions.c
+[29.007s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__type_support.h
+[29.007s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__functions.h
+[29.007s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__functions.c
+[29.007s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__struct.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__functions.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__type_support.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__struct.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__struct.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__functions.h
+[29.008s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__functions.c
+[29.009s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__type_support.h
+[29.009s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/armabs.h
+[29.009s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/armrel.h
+[29.009s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[29.009s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[29.012s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[29.013s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""
+[29.013s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.013s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[29.013s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.013s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.013s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.014s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__rosidl_typesupport_fastrtps_c.h
+[29.014s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__rosidl_typesupport_fastrtps_c.h
+[29.014s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__rosidl_typesupport_fastrtps_c.h
+[29.014s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[29.014s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[29.015s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.015s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[29.015s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.015s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.015s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.016s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__type_support.c
+[29.016s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__type_support.c
+[29.016s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__rosidl_typesupport_introspection_c.h
+[29.016s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__type_support.c
+[29.016s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__rosidl_typesupport_introspection_c.h
+[29.017s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__rosidl_typesupport_introspection_c.h
+[29.017s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[29.017s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[29.017s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[29.017s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""
+[29.018s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.018s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[29.018s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.018s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.018s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/armabs.hpp
+[29.018s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/doclamp.hpp
+[29.019s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.019s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__struct.hpp
+[29.019s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__builder.hpp
+[29.019s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__traits.hpp
+[29.019s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__type_support.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__type_support.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__traits.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__builder.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__builder.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__struct.hpp
+[29.020s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__traits.hpp
+[29.021s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__type_support.hpp
+[29.021s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__struct.hpp
+[29.021s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/armrel.hpp
+[29.021s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.021s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[29.021s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.022s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.022s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.022s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps
+[29.022s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__rosidl_typesupport_fastrtps_cpp.hpp
+[29.023s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__rosidl_typesupport_fastrtps_cpp.hpp
+[29.023s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__rosidl_typesupport_fastrtps_cpp.hpp
+[29.023s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[29.023s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.023s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[29.023s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[29.024s] -- Up-to-date: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[29.024s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__rosidl_typesupport_introspection_cpp.hpp
+[29.024s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__rosidl_typesupport_introspection_cpp.hpp
+[29.024s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armabs__type_support.cpp
+[29.024s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__rosidl_typesupport_introspection_cpp.hpp
+[29.024s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/doclamp__type_support.cpp
+[29.025s] -- Installing: /root/ros_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/armrel__type_support.cpp
+[29.025s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[29.025s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[29.025s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[29.025s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[29.026s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[29.027s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armrel.py
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_doclamp_s.c
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_doclamp.py
+[29.028s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armabs.py
+[29.029s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armrel_s.c
+[29.029s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armabs_s.c
+[29.029s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[29.029s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[29.140s] Listing '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[29.140s] Compiling '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...
+[29.140s] Listing '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[29.140s] Compiling '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...
+[29.141s] Compiling '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armabs.py'...
+[29.141s] Compiling '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_armrel.py'...
+[29.141s] Compiling '/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_doclamp.py'...
+[29.160s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[29.160s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[29.161s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[29.161s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[29.162s] -- Installing: /root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[29.162s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[29.163s] -- Installing: /root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[29.163s] -- Set runtime path of "/root/ros_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""
+[29.163s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armabs.idl
+[29.163s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armrel.idl
+[29.164s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Doclamp.idl
+[29.164s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armabs.srv
+[29.164s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armabs_Request.msg
+[29.164s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armabs_Response.msg
+[29.165s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armrel.srv
+[29.165s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armrel_Request.msg
+[29.165s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Armrel_Response.msg
+[29.165s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Doclamp.srv
+[29.166s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Doclamp_Request.msg
+[29.166s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/srv/Doclamp_Response.msg
+[29.166s] -- Installing: /root/ros_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[29.167s] -- Installing: /root/ros_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[29.167s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[29.167s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[29.167s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[29.168s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[29.168s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[29.170s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[29.170s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[29.171s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[29.171s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[29.171s] -- Installing: /root/ros_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[29.171s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[29.171s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[29.172s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[29.172s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.172s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[29.172s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.172s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[29.173s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[29.173s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[29.173s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.173s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.173s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[29.174s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.174s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[29.174s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[29.174s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[29.175s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[29.175s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[29.175s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.175s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[29.175s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[29.176s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.176s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.176s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.176s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[29.176s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[29.177s] -- Installing: /root/ros_ws/install/my_interfaces/share/my_interfaces/package.xml
+[29.182s] Invoked command in '/root/ros_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /root/ros_ws/build/my_interfaces

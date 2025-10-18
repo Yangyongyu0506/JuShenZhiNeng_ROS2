@@ -1,0 +1,12 @@
+srv/Armabs.idl
+srv/Armabs.srv
+srv/Armabs_Request.msg
+srv/Armabs_Response.msg
+srv/Armrel.idl
+srv/Armrel.srv
+srv/Armrel_Request.msg
+srv/Armrel_Response.msg
+srv/Doclamp.idl
+srv/Doclamp.srv
+srv/Doclamp_Request.msg
+srv/Doclamp_Response.msg

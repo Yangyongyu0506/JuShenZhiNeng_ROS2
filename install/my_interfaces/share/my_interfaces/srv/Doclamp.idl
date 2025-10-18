@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/Doclamp.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    struct Doclamp_Request {
+      @verbatim (language="comment", text=
+        "Desired angle to set the clamp to")
+      int16 angle;
+    };
+    struct Doclamp_Response {
+      boolean acknowledged;
+    };
+  };
+};

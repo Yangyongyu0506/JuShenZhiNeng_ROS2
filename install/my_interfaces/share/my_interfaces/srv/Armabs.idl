@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/Armabs.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "four angles for the arm joints")
+    struct Armabs_Request {
+      int16 angle1;
+
+      int16 angle2;
+
+      int16 angle3;
+
+      int16 angle4;
+    };
+    struct Armabs_Response {
+      boolean acknowledged;
+    };
+  };
+};

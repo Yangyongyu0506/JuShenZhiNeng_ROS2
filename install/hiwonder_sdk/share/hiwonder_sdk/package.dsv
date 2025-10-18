@@ -1,0 +1,3 @@
+source;share/hiwonder_sdk/hook/pythonpath.ps1
+source;share/hiwonder_sdk/hook/pythonpath.dsv
+source;share/hiwonder_sdk/hook/pythonpath.sh

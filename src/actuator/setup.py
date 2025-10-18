@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'wheel = actuator.wheel:main',
+            'clamp = actuator.clamp:main'
         ],
     },
 )

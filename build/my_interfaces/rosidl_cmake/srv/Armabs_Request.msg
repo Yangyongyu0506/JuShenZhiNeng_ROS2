@@ -1,0 +1,5 @@
+# four angles for the arm joints
+int16 angle1
+int16 angle2
+int16 angle3
+int16 angle4

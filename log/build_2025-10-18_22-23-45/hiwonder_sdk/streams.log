@@ -1,0 +1,60 @@
+[1.967s] Invoking command in '/root/ros_ws/hiwonder_sdk': PYTHONPATH=/root/ros_ws/build/hiwonder_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hiwonder_sdk build --build-base /root/ros_ws/build/hiwonder_sdk/build install --record /root/ros_ws/build/hiwonder_sdk/install.log --single-version-externally-managed
+[2.536s] /usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('-1') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+[2.536s]   warnings.warn(
+[2.549s] running egg_info
+[2.549s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+[2.550s]   warnings.warn(
+[2.551s] creating ../build/hiwonder_sdk/hiwonder_sdk.egg-info
+[2.552s] writing ../build/hiwonder_sdk/hiwonder_sdk.egg-info/PKG-INFO
+[2.553s] writing dependency_links to ../build/hiwonder_sdk/hiwonder_sdk.egg-info/dependency_links.txt
+[2.554s] writing top-level names to ../build/hiwonder_sdk/hiwonder_sdk.egg-info/top_level.txt
+[2.554s] writing manifest file '../build/hiwonder_sdk/hiwonder_sdk.egg-info/SOURCES.txt'
+[2.559s] reading manifest file '../build/hiwonder_sdk/hiwonder_sdk.egg-info/SOURCES.txt'
+[2.559s] reading manifest template 'MANIFEST.in'
+[2.560s] warning: no files found matching 'hiwonder_sdk/data/*'
+[2.562s] writing manifest file '../build/hiwonder_sdk/hiwonder_sdk.egg-info/SOURCES.txt'
+[2.563s] running build
+[2.563s] running build_py
+[2.563s] creating /root/ros_ws/build/hiwonder_sdk/build
+[2.563s] creating /root/ros_ws/build/hiwonder_sdk/build/lib
+[2.564s] creating /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.564s] copying hiwonder_sdk/Board.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.565s] copying hiwonder_sdk/yaml_handle.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.565s] copying hiwonder_sdk/__init__.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.566s] copying hiwonder_sdk/Sonar.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.567s] copying hiwonder_sdk/ActionGroupControl.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.567s] copying hiwonder_sdk/mecanum.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.568s] copying hiwonder_sdk/Misc.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.568s] copying hiwonder_sdk/PWMServoControlDemo.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.569s] copying hiwonder_sdk/PID.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.570s] copying hiwonder_sdk/ai_pro_pin_map.py -> /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk
+[2.571s] running install
+[2.572s] running install_lib
+[2.574s] creating /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.574s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/Board.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.575s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/yaml_handle.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.575s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/__init__.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.575s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/Sonar.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.575s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/ActionGroupControl.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.576s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/mecanum.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.576s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/Misc.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.576s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/PWMServoControlDemo.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.576s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/PID.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.576s] copying /root/ros_ws/build/hiwonder_sdk/build/lib/hiwonder_sdk/ai_pro_pin_map.py -> /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk
+[2.577s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/Board.py to Board.cpython-310.pyc
+[2.582s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/yaml_handle.py to yaml_handle.cpython-310.pyc
+[2.583s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/__init__.py to __init__.cpython-310.pyc
+[2.583s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/Sonar.py to Sonar.cpython-310.pyc
+[2.586s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/ActionGroupControl.py to ActionGroupControl.cpython-310.pyc
+[2.587s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/mecanum.py to mecanum.cpython-310.pyc
+[2.588s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/Misc.py to Misc.cpython-310.pyc
+[2.588s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/PWMServoControlDemo.py to PWMServoControlDemo.cpython-310.pyc
+[2.589s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/PID.py to PID.cpython-310.pyc
+[2.591s] byte-compiling /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk/ai_pro_pin_map.py to ai_pro_pin_map.cpython-310.pyc
+[2.591s] running install_egg_info
+[2.596s] Copying ../build/hiwonder_sdk/hiwonder_sdk.egg-info to /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder_sdk-_1-py3.10.egg-info
+[2.597s] running install_scripts
+[2.650s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: -1 is an invalid version and will not be supported in a future release
+[2.651s]   warnings.warn(
+[2.653s] writing list of installed files to '/root/ros_ws/build/hiwonder_sdk/install.log'
+[2.779s] Invoked command in '/root/ros_ws/hiwonder_sdk' returned '0': PYTHONPATH=/root/ros_ws/build/hiwonder_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hiwonder_sdk build --build-base /root/ros_ws/build/hiwonder_sdk/build install --record /root/ros_ws/build/hiwonder_sdk/install.log --single-version-externally-managed

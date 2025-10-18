@@ -1,0 +1,4 @@
+[console_scripts]
+clamp = actuator.clamp:main
+wheel = actuator.wheel:main
+

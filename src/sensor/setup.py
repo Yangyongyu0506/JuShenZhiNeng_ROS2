@@ -26,7 +26,8 @@ setup(
         'console_scripts': [
             'camera = sensor.camera:main',
             'ultrasonic = sensor.ultrasonic:main',
-            'battery = sensor.battery:main'
+            'battery = sensor.battery:main',
+            'integrated_sensors = sensor.integrated_sensors:main'
         ],
     },
 )

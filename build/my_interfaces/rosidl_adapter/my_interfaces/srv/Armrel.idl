@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/Armrel.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    struct Armrel_Request {
+      int16 dangle1;
+
+      int16 dangle2;
+
+      int16 dangle3;
+
+      int16 dangle4;
+    };
+    struct Armrel_Response {
+      boolean acknowledged;
+    };
+  };
+};
