@@ -1,3 +1,7 @@
 [console_scripts]
-
+arm_grab = decision.arm_grab:main
+aruco_detect = decision.aruco_detect:main
+color_detect = decision.color_detect:main
+sonar_park = decision.sonar_park:main
+track_line = decision.track_line:main
 

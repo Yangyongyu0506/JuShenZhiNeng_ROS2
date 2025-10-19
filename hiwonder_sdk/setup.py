@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='hiwonder_sdk',
-    version='-1',
+    version='0.0.1',
     packages=find_packages(),
     include_package_data=True,  # 让包包含其他数据文件
     package_data={

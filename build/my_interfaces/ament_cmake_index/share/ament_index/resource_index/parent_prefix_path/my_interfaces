@@ -1,1 +1,1 @@
-/root/ros_ws/install/actuator:/root/ros_ws/install/sensor:/root/ros_ws/install/my_interfaces:/root/ros_ws/install/decision:/opt/ros/humble
+/root/ros_ws/install/sensor:/root/ros_ws/install/decision:/root/ros_ws/install/actuator:/root/ros_ws/install/my_interfaces:/opt/ros/humble

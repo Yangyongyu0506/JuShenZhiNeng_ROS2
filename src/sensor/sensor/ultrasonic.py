@@ -6,7 +6,7 @@ from hiwonder_sdk import Sonar
 class UltrasonicNode(Node):
     def __init__(self):
         Node.__init__(self, 'ultrasonic_pub')
-        self.pub = self.create_publisher(Range, 'range', 10)
+        self.pub = self.create_publisher(Range, 'sonar', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.sonar = Sonar.Sonar()
         self.get_logger().info('Sonar Node has been started.')

@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+import glob
 
 package_name = 'decision'
 
@@ -10,6 +11,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/data', glob.glob('data/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,6 +26,11 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'sonar_park = decision.sonar_park:main',
+            'color_detect = decision.color_detect:main',
+            'aruco_detect = decision.aruco_detect:main',
+            'track_line = decision.track_line:main',
+            'arm_grab = decision.arm_grab:main'
         ],
     },
 )

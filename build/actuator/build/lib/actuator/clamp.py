@@ -7,6 +7,7 @@ class ClampServer(Node):
     def __init__(self):
         super().__init__('clamp_server')
         self._srv = self.create_service(Doclamp, 'doclamp', self.srv_callback)
+        Board.setPWMServoAngle(1, 180)
         self.get_logger().info('Clamp service started, waiting for clients')
 
     def srv_callback(self, request, response):
@@ -18,8 +19,10 @@ class ClampServer(Node):
 def main():
     rclpy.init()
     clampsrv = ClampServer()
-    rclpy.spin(clampsrv)
-    rclpy.shutdown()
+    try:
+        rclpy.spin(clampsrv)
+    finally:
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

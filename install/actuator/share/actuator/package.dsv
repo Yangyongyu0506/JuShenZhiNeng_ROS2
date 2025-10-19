@@ -4,6 +4,3 @@ source;share/actuator/hook/pythonpath.sh
 source;share/actuator/hook/ament_prefix_path.ps1
 source;share/actuator/hook/ament_prefix_path.dsv
 source;share/actuator/hook/ament_prefix_path.sh
-source;../../build/actuator/share/actuator/hook/pythonpath_develop.ps1
-source;../../build/actuator/share/actuator/hook/pythonpath_develop.dsv
-source;../../build/actuator/share/actuator/hook/pythonpath_develop.sh

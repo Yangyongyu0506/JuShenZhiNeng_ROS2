@@ -6,7 +6,7 @@ from std_msgs.msg import Int16
 class BatteryADCNode(Node):
     def __init__(self):
         Node.__init__(self, 'batteryadc_pub')
-        self.pub = self.create_publisher(Int16, 'batteryadc', 10)
+        self.pub = self.create_publisher(Int16, 'battery', 10)
         self.timer = self.create_timer(1.0, self.timer_callback)
         self.get_logger().info('Battery Monitor Node has been started.')
 

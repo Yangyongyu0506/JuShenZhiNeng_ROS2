@@ -9,7 +9,7 @@ class CameraNode(Node):
         Node.__init__(self, 'camera_pub')
         self.pub = self.create_publisher(Image, 'camera', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)
-        self.cap = cv2.VideoCapture(cam_index, cv2.CAP_V4L2)
+        self.cap = cv2.VideoCapture(cam_index, cv2.CAP_V4L2) # Our resolution is 640x480
         self.bridge = CvBridge()
         self.get_logger().info('Camera Node has been started.')
 

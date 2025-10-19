@@ -1,0 +1,61 @@
+[2.268s] Invoking command in '/root/ros_ws/src/decision': LD_LIBRARY_PATH=/root/ros_ws/install/my_interfaces/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/decision build --build-base /root/ros_ws/build/decision/build install --record /root/ros_ws/build/decision/install.log --single-version-externally-managed install_data
+[2.845s] running egg_info
+[2.847s] creating ../../build/decision/decision.egg-info
+[2.849s] writing ../../build/decision/decision.egg-info/PKG-INFO
+[2.849s] writing dependency_links to ../../build/decision/decision.egg-info/dependency_links.txt
+[2.849s] writing entry points to ../../build/decision/decision.egg-info/entry_points.txt
+[2.850s] writing requirements to ../../build/decision/decision.egg-info/requires.txt
+[2.850s] writing top-level names to ../../build/decision/decision.egg-info/top_level.txt
+[2.850s] writing manifest file '../../build/decision/decision.egg-info/SOURCES.txt'
+[2.854s] reading manifest file '../../build/decision/decision.egg-info/SOURCES.txt'
+[2.856s] writing manifest file '../../build/decision/decision.egg-info/SOURCES.txt'
+[2.856s] running build
+[2.856s] running build_py
+[2.857s] creating /root/ros_ws/build/decision/build
+[2.857s] creating /root/ros_ws/build/decision/build/lib
+[2.857s] creating /root/ros_ws/build/decision/build/lib/decision
+[2.857s] copying decision/arm_grab.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.858s] copying decision/track_line.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.858s] copying decision/sonar_park.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.858s] copying decision/__init__.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.858s] copying decision/color_detect.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.858s] copying decision/aruco_detect.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.859s] copying decision/test_color_detect.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.859s] copying decision/test_calib.py -> /root/ros_ws/build/decision/build/lib/decision
+[2.859s] running install
+[2.860s] running install_lib
+[2.864s] creating /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.866s] copying /root/ros_ws/build/decision/build/lib/decision/arm_grab.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.866s] copying /root/ros_ws/build/decision/build/lib/decision/track_line.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.866s] copying /root/ros_ws/build/decision/build/lib/decision/sonar_park.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.867s] copying /root/ros_ws/build/decision/build/lib/decision/__init__.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.873s] copying /root/ros_ws/build/decision/build/lib/decision/color_detect.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.874s] copying /root/ros_ws/build/decision/build/lib/decision/aruco_detect.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.874s] copying /root/ros_ws/build/decision/build/lib/decision/test_color_detect.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.874s] copying /root/ros_ws/build/decision/build/lib/decision/test_calib.py -> /root/ros_ws/install/decision/lib/python3.10/site-packages/decision
+[2.874s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/arm_grab.py to arm_grab.cpython-310.pyc
+[2.874s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/track_line.py to track_line.cpython-310.pyc
+[2.876s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/sonar_park.py to sonar_park.cpython-310.pyc
+[2.876s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/__init__.py to __init__.cpython-310.pyc
+[2.876s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/color_detect.py to color_detect.cpython-310.pyc
+[2.876s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/aruco_detect.py to aruco_detect.cpython-310.pyc
+[2.876s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/test_color_detect.py to test_color_detect.cpython-310.pyc
+[2.877s] byte-compiling /root/ros_ws/install/decision/lib/python3.10/site-packages/decision/test_calib.py to test_calib.cpython-310.pyc
+[2.878s] running install_data
+[2.878s] creating /root/ros_ws/install/decision/share/ament_index
+[2.878s] creating /root/ros_ws/install/decision/share/ament_index/resource_index
+[2.878s] creating /root/ros_ws/install/decision/share/ament_index/resource_index/packages
+[2.878s] copying resource/decision -> /root/ros_ws/install/decision/share/ament_index/resource_index/packages
+[2.879s] copying package.xml -> /root/ros_ws/install/decision/share/decision
+[2.879s] creating /root/ros_ws/install/decision/share/decision/data
+[2.879s] copying data/color_config.yaml -> /root/ros_ws/install/decision/share/decision/data
+[2.879s] running install_egg_info
+[2.888s] Copying ../../build/decision/decision.egg-info to /root/ros_ws/install/decision/lib/python3.10/site-packages/decision-0.0.0-py3.10.egg-info
+[2.888s] running install_scripts
+[2.945s] Installing arm_grab script to /root/ros_ws/install/decision/lib/decision
+[2.945s] Installing aruco_detect script to /root/ros_ws/install/decision/lib/decision
+[2.945s] Installing color_detect script to /root/ros_ws/install/decision/lib/decision
+[2.946s] Installing sonar_park script to /root/ros_ws/install/decision/lib/decision
+[2.946s] Installing track_line script to /root/ros_ws/install/decision/lib/decision
+[2.946s] writing list of installed files to '/root/ros_ws/build/decision/install.log'
+[3.050s] Invoked command in '/root/ros_ws/src/decision' returned '0': LD_LIBRARY_PATH=/root/ros_ws/install/my_interfaces/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver:/usr/local/Ascend/ascend-toolkit/laster/runtime/lib64/stub/aarch64:/usr/local/Ascend/ascend-toolkit/laster/lib64:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/laster/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/laster/opp/built-in/op_impl/ai_core/tbe/op_tiling:/usr/local/Ascend/driver/lib64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/decision build --build-base /root/ros_ws/build/decision/build install --record /root/ros_ws/build/decision/install.log --single-version-externally-managed install_data

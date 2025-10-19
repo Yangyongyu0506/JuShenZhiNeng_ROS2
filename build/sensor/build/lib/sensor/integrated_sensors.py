@@ -12,7 +12,7 @@ import math
 class IntegratedSensorsNode(Node):
     def __init__(self):
         super().__init__('integral_sensors')
-        self._cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
+        self._cap = cv2.VideoCapture(0, cv2.CAP_V4L2) # Our resolution is 640x480
         self._sonar = Sonar.Sonar()
 
         self._timer_cam = self.create_timer(0.1, self.cam_callback)
@@ -21,7 +21,7 @@ class IntegratedSensorsNode(Node):
 
         self._cam_pub = self.create_publisher(Image, 'camera', 10)
         self._sonar_pub = self.create_publisher(Range, 'sonar', 10)
-        self._bat_pub = self.create_publisher(Int16, 'battery_voltage', 10)
+        self._bat_pub = self.create_publisher(Int16, 'battery', 10)
         self.get_logger().info('Integrated Senor Node has been started.')
 
         self.cvbridge = CvBridge()
@@ -31,7 +31,7 @@ class IntegratedSensorsNode(Node):
         if not ret:
             self.get_logger().error('Failed to capture image')
             return
-        msg = self.cvbridge.cv2_to_imgmsg(frame, encoding="bgr8")
+        msg = self.cvbridge.cv2_to_imgmsg(cv2.flip(frame, -1), encoding="bgr8")
         msg.height = frame.shape[0]
         msg.width = frame.shape[1]
         msg.step = frame.strides[0]

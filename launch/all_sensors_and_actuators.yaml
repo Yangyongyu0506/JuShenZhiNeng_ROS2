@@ -1,0 +1,24 @@
+launch:
+  - node:
+      pkg: "sensor"
+      exec: "integrated_sensors"
+      name: "integrated_sensors"
+      output: "screen"
+
+  - node:
+      pkg: "actuator"
+      exec: "arm"
+      name: "arm"
+      output: "screen"
+
+  - node:
+      pkg: "actuator"
+      exec: "clamp"
+      name: "clamp"
+      output: "screen"
+
+  - node:
+      pkg: "actuator"
+      exec: "wheel"
+      name: "wheel"
+      output: "screen"

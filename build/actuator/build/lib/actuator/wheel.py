@@ -6,7 +6,7 @@ from hiwonder_sdk import mecanum
 class MecanumWheelNode(Node):
     def __init__(self):
         super().__init__('mecanum_wheel_node')
-        self.sub = self.create_subscription(Twist, 'turtle1/cmd_vel', self.cmd_vel_callback, 10)
+        self.sub = self.create_subscription(Twist, 'cmd_vel', self.cmd_vel_callback, 10)
         self.get_logger().info('Mecanum Wheel Node has been started.')
         self.chassis = mecanum.MecanumChassis()
 
