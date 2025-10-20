@@ -1,14 +1,25 @@
+# mecanum.py
+# Wheel chassis control
+
 #!/usr/bin/python3
 # coding=utf8
 import math
 from hiwonder_sdk import Board
+
 
 class MecanumChassis:
     # A = 67  # mm
     # B = 59  # mm
     # WHEEL_DIAMETER = 65  # mm
 
-    def __init__(self, a=67, b=59, wheel_diameter=65, wheel_init_dir=[1, 1, 1, 1], wheel_init_map=[1,2,3,4]):
+    def __init__(
+        self,
+        a=67,
+        b=59,
+        wheel_diameter=65,
+        wheel_init_dir=[1, 1, 1, 1],
+        wheel_init_map=[1, 2, 3, 4],
+    ):
         self.a = a
         self.b = b
         self.wheel_diameter = wheel_diameter
@@ -20,7 +31,7 @@ class MecanumChassis:
     def reset_motors(self):
         for i in range(1, 5):
             Board.setMotor(i, 0)
-            
+
         self.velocity = 0
         self.direction = 0
         self.angular_rate = 0
@@ -41,13 +52,13 @@ class MecanumChassis:
         vx = velocity * math.cos(direction * rad_per_deg)
         vy = velocity * math.sin(direction * rad_per_deg)
         vp = -angular_rate * (self.a + self.b)
-        v1 = int(vy + vx - vp) 
+        v1 = int(vy + vx - vp)
         v2 = int(vy - vx + vp)
         v3 = int(vy - vx - vp)
         v4 = int(vy + vx + vp)
         if fake:
             return
-        Board.setMotor(1, v1) 
+        Board.setMotor(1, v1)
         Board.setMotor(2, v2)
         Board.setMotor(3, v3)
         Board.setMotor(4, v4)
@@ -56,9 +67,11 @@ class MecanumChassis:
         self.angular_rate = angular_rate
 
     def translation(self, velocity_x, velocity_y, fake=False):
-        velocity = math.sqrt(velocity_x ** 2 + velocity_y ** 2)
+        velocity = math.sqrt(velocity_x**2 + velocity_y**2)
         if velocity_x == 0:
-            direction = 90 if velocity_y >= 0 else 270  # pi/2 90deg, (pi * 3) / 2  270deg
+            direction = (
+                90 if velocity_y >= 0 else 270
+            )  # pi/2 90deg, (pi * 3) / 2  270deg
         else:
             if velocity_y == 0:
                 direction = 0 if velocity_x > 0 else 180
@@ -74,4 +87,3 @@ class MecanumChassis:
             return velocity, direction
         else:
             return self.set_velocity(velocity, direction, 0)
-
