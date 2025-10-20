@@ -35,8 +35,8 @@ class Sonar:
 
     def __init__(self):
         self.i2c_addr = 0x77
-        self.i2c = 1
-        self.Pixels = [0, 0]
+        self.i2c = 7
+        self.Pixels = [0,0]
         self.RGBMode = 0
 
     def __getattr(self, attr):
