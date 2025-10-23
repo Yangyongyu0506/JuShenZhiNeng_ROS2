@@ -5,7 +5,7 @@ import cv2
 from cv_bridge import CvBridge
 
 class CameraNode(Node):
-    def __init__(self, cam_index = 0):
+    def __init__(self, cam_index=0):
         Node.__init__(self, 'camera_pub')
         self.pub = self.create_publisher(Image, 'camera', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)

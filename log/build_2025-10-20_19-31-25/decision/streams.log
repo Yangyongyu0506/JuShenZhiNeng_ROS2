@@ -1,0 +1,21 @@
+[1.685s] Invoking command in '/root/ros_ws/build/decision': AMENT_PREFIX_PATH=/root/ros_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/my_interfaces LD_LIBRARY_PATH=/root/ros_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/decision/build --no-deps symlink_data
+[2.329s] running develop
+[2.721s] running egg_info
+[2.722s] writing decision.egg-info/PKG-INFO
+[2.722s] writing dependency_links to decision.egg-info/dependency_links.txt
+[2.722s] writing entry points to decision.egg-info/entry_points.txt
+[2.722s] writing requirements to decision.egg-info/requires.txt
+[2.723s] writing top-level names to decision.egg-info/top_level.txt
+[2.728s] reading manifest file 'decision.egg-info/SOURCES.txt'
+[2.731s] writing manifest file 'decision.egg-info/SOURCES.txt'
+[2.735s] running build_ext
+[2.736s] Creating /root/ros_ws/install/decision/lib/python3.10/site-packages/decision.egg-link (link to .)
+[2.739s] Installing arm_grab script to /root/ros_ws/install/decision/lib/decision
+[2.739s] Installing aruco_detect script to /root/ros_ws/install/decision/lib/decision
+[2.740s] Installing color_detect script to /root/ros_ws/install/decision/lib/decision
+[2.740s] Installing sonar_park script to /root/ros_ws/install/decision/lib/decision
+[2.741s] Installing track_line script to /root/ros_ws/install/decision/lib/decision
+[2.741s] 
+[2.741s] Installed /root/ros_ws/build/decision
+[2.741s] running symlink_data
+[2.864s] Invoked command in '/root/ros_ws/build/decision' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/my_interfaces LD_LIBRARY_PATH=/root/ros_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/var/davinci/driver/lib64:/var/davinci/driver/lib64/common:/var/davinci/driver/lib64/driver PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:/root/ros_ws/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/decision/build --no-deps symlink_data
