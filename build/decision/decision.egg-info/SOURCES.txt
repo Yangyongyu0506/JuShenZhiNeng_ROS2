@@ -10,10 +10,11 @@ setup.py
 ../../build/decision/decision.egg-info/zip-safe
 data/color_config.yaml
 decision/__init__.py
-decision/arm_grab.py
+decision/arm_grab_open_loop.py
 decision/aruco_detect.py
 decision/color_detect.py
 decision/sonar_park.py
+decision/test_arm.py
 decision/test_calib.py
 decision/test_color_detect.py
 decision/track_line.py

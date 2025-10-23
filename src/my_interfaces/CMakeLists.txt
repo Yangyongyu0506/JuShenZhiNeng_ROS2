@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Armabs.srv"
   "srv/Armrel.srv"
   "srv/Doclamp.srv"
+  "srv/Allservos.srv"
 )
 
 if(BUILD_TESTING)

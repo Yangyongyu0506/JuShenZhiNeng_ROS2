@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/allservos__type_support.cpp.o"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/allservos__type_support.cpp.o.d"
   "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/armabs__type_support.cpp.o"
   "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/armabs__type_support.cpp.o.d"
   "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/armrel__type_support.cpp.o"
@@ -7,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/doclamp__type_support.cpp.o.d"
   "libmy_interfaces__rosidl_typesupport_c.pdb"
   "libmy_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/my_interfaces/srv/allservos__type_support.cpp"
   "rosidl_typesupport_c/my_interfaces/srv/armabs__type_support.cpp"
   "rosidl_typesupport_c/my_interfaces/srv/armrel__type_support.cpp"
   "rosidl_typesupport_c/my_interfaces/srv/doclamp__type_support.cpp"

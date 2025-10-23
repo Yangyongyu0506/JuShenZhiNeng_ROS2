@@ -15,6 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/__init__.py" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_allservos.py" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_allservos_s.c" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_armabs.py" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_armabs_s.c" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_armrel.py" "/root/ros_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"

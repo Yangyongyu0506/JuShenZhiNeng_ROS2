@@ -11,8 +11,13 @@ setup.py
 actuator/__init__.py
 actuator/arm.py
 actuator/clamp.py
+actuator/servo.py
 actuator/wheel.py
+actuator.egg-info/PKG-INFO
+actuator.egg-info/SOURCES.txt
+actuator.egg-info/dependency_links.txt
+actuator.egg-info/entry_points.txt
+actuator.egg-info/requires.txt
+actuator.egg-info/top_level.txt
+actuator.egg-info/zip-safe
 resource/actuator
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

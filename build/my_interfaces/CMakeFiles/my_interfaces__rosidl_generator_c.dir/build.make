@@ -85,6 +85,7 @@ rosidl_generator_c/my_interfaces/srv/armabs.h: /opt/ros/humble/share/rosidl_gene
 rosidl_generator_c/my_interfaces/srv/armabs.h: rosidl_adapter/my_interfaces/srv/Armabs.idl
 rosidl_generator_c/my_interfaces/srv/armabs.h: rosidl_adapter/my_interfaces/srv/Armrel.idl
 rosidl_generator_c/my_interfaces/srv/armabs.h: rosidl_adapter/my_interfaces/srv/Doclamp.idl
+rosidl_generator_c/my_interfaces/srv/armabs.h: rosidl_adapter/my_interfaces/srv/Allservos.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros_ws/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /root/ros_ws/build/my_interfaces/rosidl_generator_c__arguments.json
 
@@ -121,6 +122,18 @@ rosidl_generator_c/my_interfaces/srv/detail/doclamp__struct.h: rosidl_generator_
 rosidl_generator_c/my_interfaces/srv/detail/doclamp__type_support.h: rosidl_generator_c/my_interfaces/srv/armabs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/doclamp__type_support.h
 
+rosidl_generator_c/my_interfaces/srv/allservos.h: rosidl_generator_c/my_interfaces/srv/armabs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/allservos.h
+
+rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.h: rosidl_generator_c/my_interfaces/srv/armabs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.h
+
+rosidl_generator_c/my_interfaces/srv/detail/allservos__struct.h: rosidl_generator_c/my_interfaces/srv/armabs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/allservos__struct.h
+
+rosidl_generator_c/my_interfaces/srv/detail/allservos__type_support.h: rosidl_generator_c/my_interfaces/srv/armabs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/allservos__type_support.h
+
 rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c: rosidl_generator_c/my_interfaces/srv/armabs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c
 
@@ -129,6 +142,9 @@ rosidl_generator_c/my_interfaces/srv/detail/armrel__functions.c: rosidl_generato
 
 rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c: rosidl_generator_c/my_interfaces/srv/armabs.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c
+
+rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c: rosidl_generator_c/my_interfaces/srv/armabs.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c
 
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c.o: CMakeFiles/my_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c.o: rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c
@@ -172,11 +188,26 @@ CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interface
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c -o CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.s
 
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o: CMakeFiles/my_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o: rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o: CMakeFiles/my_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ros_ws/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o -MF CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o.d -o CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o -c /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c
+
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c > CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.i
+
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c -o CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.s
+
 # Object files for target my_interfaces__rosidl_generator_c
 my_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c.o" \
 "CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armrel__functions.c.o" \
-"CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.o"
+"CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.o" \
+"CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o"
 
 # External object files for target my_interfaces__rosidl_generator_c
 my_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -184,11 +215,12 @@ my_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c.o
 libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/armrel__functions.c.o
 libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.c.o
+libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c.o
 libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/build.make
 libmy_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmy_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmy_interfaces__rosidl_generator_c.so: CMakeFiles/my_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ros_ws/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libmy_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ros_ws/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libmy_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,8 +231,13 @@ CMakeFiles/my_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/my_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/my_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/allservos.h
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/armabs.h
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/armrel.h
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.c
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.h
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/allservos__struct.h
+CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/allservos__type_support.h
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.c
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/armabs__functions.h
 CMakeFiles/my_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_interfaces/srv/detail/armabs__struct.h

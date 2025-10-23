@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/root/ros_ws/src/my_interfaces:srv/Armabs.srv",
     "/root/ros_ws/src/my_interfaces:srv/Armrel.srv",
-    "/root/ros_ws/src/my_interfaces:srv/Doclamp.srv"
+    "/root/ros_ws/src/my_interfaces:srv/Doclamp.srv",
+    "/root/ros_ws/src/my_interfaces:srv/Allservos.srv"
   ]
 }

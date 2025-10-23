@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/Allservos.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    typedef int16 int16__5[5];
+    struct Allservos_Request {
+      int16__5 angles;
+    };
+    struct Allservos_Response {
+      boolean acknowledged;
+    };
+  };
+};

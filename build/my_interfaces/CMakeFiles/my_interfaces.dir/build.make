@@ -75,6 +75,9 @@ CMakeFiles/my_interfaces: rosidl_cmake/srv/Armrel_Response.msg
 CMakeFiles/my_interfaces: /root/ros_ws/src/my_interfaces/srv/Doclamp.srv
 CMakeFiles/my_interfaces: rosidl_cmake/srv/Doclamp_Request.msg
 CMakeFiles/my_interfaces: rosidl_cmake/srv/Doclamp_Response.msg
+CMakeFiles/my_interfaces: /root/ros_ws/src/my_interfaces/srv/Allservos.srv
+CMakeFiles/my_interfaces: rosidl_cmake/srv/Allservos_Request.msg
+CMakeFiles/my_interfaces: rosidl_cmake/srv/Allservos_Response.msg
 
 my_interfaces: CMakeFiles/my_interfaces
 my_interfaces: CMakeFiles/my_interfaces.dir/build.make

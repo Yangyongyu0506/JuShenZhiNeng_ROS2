@@ -1,5 +1,5 @@
 [console_scripts]
-arm_grab = decision.arm_grab:main
+arm_grab_open_loop = decision.arm_grab_open_loop:main
 aruco_detect = decision.aruco_detect:main
 color_detect = decision.color_detect:main
 sonar_park = decision.sonar_park:main

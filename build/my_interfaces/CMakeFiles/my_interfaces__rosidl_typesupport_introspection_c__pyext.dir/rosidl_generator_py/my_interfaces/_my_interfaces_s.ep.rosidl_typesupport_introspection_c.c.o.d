@@ -210,4 +210,7 @@ CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
  /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/armrel__functions.h \
  /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/doclamp__type_support.h \
  /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/doclamp__struct.h \
- /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.h
+ /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/doclamp__functions.h \
+ /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__type_support.h \
+ /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__struct.h \
+ /root/ros_ws/build/my_interfaces/rosidl_generator_c/my_interfaces/srv/detail/allservos__functions.h

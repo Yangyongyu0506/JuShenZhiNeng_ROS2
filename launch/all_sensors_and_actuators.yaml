@@ -7,14 +7,8 @@ launch:
 
   - node:
       pkg: "actuator"
-      exec: "arm"
-      name: "arm"
-      output: "screen"
-
-  - node:
-      pkg: "actuator"
-      exec: "clamp"
-      name: "clamp"
+      exec: "servo"
+      name: "servo"
       output: "screen"
 
   - node:

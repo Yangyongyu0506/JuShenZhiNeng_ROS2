@@ -26,7 +26,8 @@ setup(
         'console_scripts': [
             'wheel = actuator.wheel:main',
             'clamp = actuator.clamp:main',
-            'arm = actuator.arm:main'
+            'arm = actuator.arm:main',
+            'servo = actuator.servo:main',
         ],
     },
 )

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/allservos__type_support_c.cpp.o"
+  "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/allservos__type_support_c.cpp.o.d"
   "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armabs__type_support_c.cpp.o"
   "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armabs__type_support_c.cpp.o.d"
   "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armrel__type_support_c.cpp.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/doclamp__type_support_c.cpp.o.d"
   "libmy_interfaces__rosidl_typesupport_fastrtps_c.pdb"
   "libmy_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/allservos__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/allservos__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armabs__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armabs__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/armrel__rosidl_typesupport_fastrtps_c.h"

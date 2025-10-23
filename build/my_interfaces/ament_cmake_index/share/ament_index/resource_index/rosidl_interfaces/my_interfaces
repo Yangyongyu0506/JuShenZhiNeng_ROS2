@@ -1,3 +1,7 @@
+srv/Allservos.idl
+srv/Allservos.srv
+srv/Allservos_Request.msg
+srv/Allservos_Response.msg
 srv/Armabs.idl
 srv/Armabs.srv
 srv/Armabs_Request.msg

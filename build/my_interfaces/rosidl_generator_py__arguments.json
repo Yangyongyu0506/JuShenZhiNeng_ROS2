@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Armabs.idl",
     "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Armrel.idl",
-    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Doclamp.idl"
+    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Doclamp.idl",
+    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Allservos.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -23,6 +24,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
     "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Armabs.idl",
     "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Armrel.idl",
-    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Doclamp.idl"
+    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Doclamp.idl",
+    "/root/ros_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Allservos.idl"
   ]
 }

@@ -81,6 +81,11 @@ CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/doc
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__struct.hpp
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__traits.hpp
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__type_support.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/allservos.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__builder.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__struct.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__traits.hpp
+CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__type_support.hpp
 CMakeFiles/my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +106,7 @@ rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: /opt/ros/humble/share/rosidl_
 rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: rosidl_adapter/my_interfaces/srv/Armabs.idl
 rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: rosidl_adapter/my_interfaces/srv/Armrel.idl
 rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: rosidl_adapter/my_interfaces/srv/Doclamp.idl
+rosidl_generator_cpp/my_interfaces/srv/armabs.hpp: rosidl_adapter/my_interfaces/srv/Allservos.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros_ws/build/my_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/ros_ws/build/my_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -146,9 +152,29 @@ rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__traits.hpp: rosidl_genera
 rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__type_support.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/doclamp__type_support.hpp
 
+rosidl_generator_cpp/my_interfaces/srv/allservos.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/allservos.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/allservos__builder.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/allservos__builder.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/allservos__struct.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/allservos__struct.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/allservos__traits.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/allservos__traits.hpp
+
+rosidl_generator_cpp/my_interfaces/srv/detail/allservos__type_support.hpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_interfaces/srv/detail/allservos__type_support.hpp
+
 my_interfaces__cpp: CMakeFiles/my_interfaces__cpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/allservos.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/armabs.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/armrel.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__builder.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__struct.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__traits.hpp
+my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/allservos__type_support.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/armabs__builder.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/armabs__struct.hpp
 my_interfaces__cpp: rosidl_generator_cpp/my_interfaces/srv/detail/armabs__traits.hpp

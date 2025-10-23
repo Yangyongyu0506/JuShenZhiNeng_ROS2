@@ -8,8 +8,8 @@ class ArmServer(Node):
         super().__init__('arm_server')
         self._srv_abs = self.create_service(Armabs, 'arm_abs', self.srv_abs_callback)
         self.get_logger().info('Arm service started, waiting for clients')
-        Board.setPWMServoAngle(2, 90)
-        Board.setPWMServoAngle(5, 60)
+        Board.setPWMServoAngle(2, 90) # 原来是2
+        Board.setPWMServoAngle(5, 60) # 原来是5
         Board.setPWMServoAngle(4, 180)
         Board.setPWMServoAngle(3, 0)
     

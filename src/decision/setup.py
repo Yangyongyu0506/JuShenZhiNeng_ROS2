@@ -30,7 +30,7 @@ setup(
             'color_detect = decision.color_detect:main',
             'aruco_detect = decision.aruco_detect:main',
             'track_line = decision.track_line:main',
-            'arm_grab = decision.arm_grab:main'
+            'arm_grab_open_loop = decision.arm_grab_open_loop:main'
         ],
     },
 )
