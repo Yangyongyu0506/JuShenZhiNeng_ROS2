@@ -15,7 +15,7 @@ class IntegratedSensorsNode(Node):
         self._cap = cv2.VideoCapture(0, cv2.CAP_V4L2) # Our resolution is 640x480
         self._sonar = Sonar.Sonar()
 
-        self._timer_cam = self.create_timer(0.1, self.cam_callback)
+        self._timer_cam = self.create_timer(0.05, self.cam_callback)
         self._timer_sonar = self.create_timer(0.1, self.sonar_callback)
         self._timer_bat = self.create_timer(5, self.bat_callback)
 

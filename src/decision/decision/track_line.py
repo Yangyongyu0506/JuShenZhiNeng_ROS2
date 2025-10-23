@@ -11,7 +11,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 class TrackLineNode(Node):
-    def __init__(self, track_type: str ='k', Kp=0.005, Kd=0.2):
+    def __init__(self, track_type: str ='k', Kp=0.1, Kd=0.06, Ki=0.001):
         super().__init__('track_line_node')
         config_path = os.path.join(
             get_package_share_directory('decision'),
@@ -27,6 +27,10 @@ class TrackLineNode(Node):
             case 'k':
                 self.color_lab_threshold = lab_config['black']
                 self.get_logger().info('Our mission is to track the black line')
+        self.Kp = Kp
+        self.Kd = Kd
+        self.Ki = Ki
+        self.I = 0
         self.bridge = CvBridge()
         self._sub = self.create_subscription(Image, 'camera', self.image_callback, 10)
         self._vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
@@ -43,9 +47,6 @@ class TrackLineNode(Node):
         rclpy.spin_until_future_complete(self, arm_init_future)
         res = arm_init_future.result()
         self.get_logger().info(f'Arm initialized: {res.acknowledged}')
-
-        self.Kp = Kp
-        self.Kd = Kd
         self.get_logger().info("Track line node has been created")
 
     def image_callback(self, msg: Image):
@@ -61,37 +62,38 @@ class TrackLineNode(Node):
             M = cv2.moments(largest_contour)
             if M['m00'] != 0:
                 cx = int(M['m10'] / M['m00'])
-                cy = int(M['m01'] / M['m00'])
                 error_x = cx - (cv_img.shape[1] // 2)
                 twist_msg = Twist()
                 # 匹配停车标志
-                epsilon = 0.02 * cv2.arcLength(largest_contour, True)
-                approx = cv2.approxPolyDP(largest_contour, epsilon, True)
-                if len(approx) >= 8 and np.sum(mask[:50, :]) < 5:
-                    self._vel_pub.publish(twist_msg)
-                    self.get_logger().info(f"Stop sign detected {len(approx)}, the robot has stopped.")
-                    return
-                twist_msg.linear.x = 0.8
+                # epsilon = 0.02 * cv2.arcLength(largest_contour, True)
+                # approx = cv2.approxPolyDP(largest_contour, epsilon, True)
+                # if len(approx) >= 8 and np.sum(mask[:50, :]) < 5:
+                #     self._vel_pub.publish(twist_msg)
+                #     self.get_logger().info(f"Stop sign detected {len(approx)}, the robot has stopped.")
+                #     self.destroy_node()
+                #     rclpy.shutdown()
+                #     return
+                twist_msg.linear.x = 0.6
                 if not hasattr(self, 'error_x_prev'):
-                    twist_msg.angular.z = -float(error_x) * self.Kp
+                    omega = -float(error_x) * self.Kp
                 else:
-                    twist_msg.angular.z = -error_x * self.Kp - (error_x - self.error_x_prev) * self.Kd
+                    omega = -error_x * self.Kp - (error_x - self.error_x_prev) * self.Kd
+                twist_msg.angular.z = omega
                 self.error_x_prev = error_x
+                self.I += error_x
                 self._vel_pub.publish(twist_msg)
                 return
         self._vel_pub.publish(Twist())  # Stop if no line is detected
         self.get_logger().info("No line detected, the robot has stopped.")
+        self.destroy_node()
+        rclpy.shutdown()
 
 def main():
     rclpy.init()
     track_line_node = TrackLineNode(track_type='k')
-    try:
-        rclpy.spin(track_line_node)
-    except Exception as e:
-        track_line_node.get_logger().error(f'{e}')
-        track_line_node._vel_pub.publish(Twist())
-        track_line_node.destroy_node()
-        rclpy.shutdown()
+    rclpy.spin(track_line_node)
+    track_line_node.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
