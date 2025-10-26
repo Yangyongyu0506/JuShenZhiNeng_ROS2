@@ -5,7 +5,7 @@ import numpy as np
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from geometry_msgs.msg import Twist
-from my_interfaces.srv import Armabs
+from my_interfaces.srv import Allservos
 import yaml
 import os
 from ament_index_python.packages import get_package_share_directory
@@ -35,14 +35,11 @@ class TrackLineNode(Node):
         self._sub = self.create_subscription(Image, 'camera', self.image_callback, 10)
         self._vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
         self._imgdebug_pub = self.create_publisher(Image, 'debug_image', 10)
-        self._cli = self.create_client(Armabs, 'arm_abs')
+        self._cli = self.create_client(Allservos, 'set_all_servos')
         while not self._cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info("Arm service not available, waiting...")
-        arm_init_req = Armabs.Request()
-        arm_init_req.angle1 = 90
-        arm_init_req.angle2 = 90
-        arm_init_req.angle3 = 180
-        arm_init_req.angle4 = 0
+            self.get_logger().info("Servo service not available, waiting...")
+        arm_init_req = Allservos.Request()
+        arm_init_req.angles = [90, 90, 180, 0]
         arm_init_future = self._cli.call_async(arm_init_req)
         rclpy.spin_until_future_complete(self, arm_init_future)
         res = arm_init_future.result()
