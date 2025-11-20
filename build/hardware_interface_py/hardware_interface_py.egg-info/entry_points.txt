@@ -1,0 +1,4 @@
+[console_scripts]
+i2c = hardware_interface_py.i2c:main
+usb_camera = hardware_interface_py.usb_camera:main
+

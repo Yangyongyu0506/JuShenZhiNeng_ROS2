@@ -53,13 +53,14 @@ class ArmGrabOpenLoopNode(Node):
             self.get_logger().error(f'Service call failed: {e}')
 
         # 稍作延时再执行下一步
-        time.sleep(3)
+        time.sleep(5)
         self.execute_next_action()
 def main():
     rclpy.init()
     node = ArmGrabOpenLoopNode()
     rclpy.spin(node)
     node.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,11 @@
+running develop
+running egg_info
+writing hiwonder_sdk.egg-info/PKG-INFO
+writing dependency_links to hiwonder_sdk.egg-info/dependency_links.txt
+writing top-level names to hiwonder_sdk.egg-info/top_level.txt
+reading manifest file 'hiwonder_sdk.egg-info/SOURCES.txt'
+writing manifest file 'hiwonder_sdk.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/install/hiwonder_sdk/lib/python3.10/site-packages/hiwonder-sdk.egg-link (link to .)
+
+Installed /root/ros_ws/build/hiwonder_sdk

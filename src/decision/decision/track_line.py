@@ -11,7 +11,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 class TrackLineNode(Node):
-    def __init__(self, track_type: str ='k', Kp=0.1, Kd=0.06, Ki=0.001):
+    def __init__(self, track_type: str ='k', Kp=0.05, Kd=0.2, Ki=0.001):
         super().__init__('track_line_node')
         config_path = os.path.join(
             get_package_share_directory('decision'),
@@ -39,7 +39,7 @@ class TrackLineNode(Node):
         while not self._cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("Servo service not available, waiting...")
         arm_init_req = Allservos.Request()
-        arm_init_req.angles = [90, 90, 180, 0]
+        arm_init_req.angles = [85, 60, 180, 0, 180]
         arm_init_future = self._cli.call_async(arm_init_req)
         rclpy.spin_until_future_complete(self, arm_init_future)
         res = arm_init_future.result()
@@ -48,7 +48,7 @@ class TrackLineNode(Node):
 
     def image_callback(self, msg: Image):
         cv_img = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
-        lab_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2LAB)[cv_img.shape[0] // 2: -50]  # Consider only the lower half of the image
+        lab_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2LAB) # Consider only the lower half of the image
         mask = cv2.inRange(lab_img, tuple(self.color_lab_threshold['min']), tuple(self.color_lab_threshold['max']))
         mask = cv2.dilate(mask, kernel := np.ones((5, 5), np.uint8))
         debug_img = self.bridge.cv2_to_imgmsg(mask, encoding="mono8")
@@ -70,12 +70,12 @@ class TrackLineNode(Node):
                 #     self.destroy_node()
                 #     rclpy.shutdown()
                 #     return
-                twist_msg.linear.x = 0.6
+                twist_msg.linear.x = 0.8
                 if not hasattr(self, 'error_x_prev'):
                     omega = -float(error_x) * self.Kp
                 else:
                     omega = -error_x * self.Kp - (error_x - self.error_x_prev) * self.Kd
-                twist_msg.angular.z = omega
+                twist_msg.angular.z = np.clip(omega, -10, 10)
                 self.error_x_prev = error_x
                 self.I += error_x
                 self._vel_pub.publish(twist_msg)

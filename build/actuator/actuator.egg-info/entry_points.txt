@@ -1,6 +1,4 @@
 [console_scripts]
-arm = actuator.arm:main
-clamp = actuator.clamp:main
-servo = actuator.servo:main
+arm_std = actuator.arm_std:main
 wheel = actuator.wheel:main
 

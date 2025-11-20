@@ -9,9 +9,7 @@ setup.py
 ../../build/actuator/actuator.egg-info/top_level.txt
 ../../build/actuator/actuator.egg-info/zip-safe
 actuator/__init__.py
-actuator/arm.py
-actuator/clamp.py
-actuator/servo.py
+actuator/arm_std.py
 actuator/wheel.py
 actuator.egg-info/PKG-INFO
 actuator.egg-info/SOURCES.txt

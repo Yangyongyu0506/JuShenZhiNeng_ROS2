@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001058] (-) JobUnselected: {'identifier': 'actuator'}
+[0.001262] (-) JobUnselected: {'identifier': 'decision'}
+[0.001346] (-) JobUnselected: {'identifier': 'hiwonder_sdk'}
+[0.001430] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.001593] (-) JobUnselected: {'identifier': 'sensor'}
+[0.001938] (-) EventReactorShutdown: {}
