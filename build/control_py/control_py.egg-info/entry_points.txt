@@ -1,0 +1,3 @@
+[console_scripts]
+combat = control_py.combat:main
+

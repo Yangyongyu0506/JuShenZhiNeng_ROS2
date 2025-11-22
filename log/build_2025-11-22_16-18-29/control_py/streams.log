@@ -1,0 +1,24 @@
+[3.027s] Invoking command in '/root/ros_ws/build/control_py': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/control_py/build --no-deps symlink_data
+[3.761s] running develop
+[4.207s] running egg_info
+[4.207s] creating control_py.egg-info
+[4.208s] writing control_py.egg-info/PKG-INFO
+[4.209s] writing dependency_links to control_py.egg-info/dependency_links.txt
+[4.211s] writing entry points to control_py.egg-info/entry_points.txt
+[4.211s] writing requirements to control_py.egg-info/requires.txt
+[4.211s] writing top-level names to control_py.egg-info/top_level.txt
+[4.212s] writing manifest file 'control_py.egg-info/SOURCES.txt'
+[4.220s] reading manifest file 'control_py.egg-info/SOURCES.txt'
+[4.223s] writing manifest file 'control_py.egg-info/SOURCES.txt'
+[4.234s] running build_ext
+[4.240s] Creating /root/ros_ws/install/control_py/lib/python3.10/site-packages/control-py.egg-link (link to .)
+[4.244s] Installing combat script to /root/ros_ws/install/control_py/lib/control_py
+[4.247s] 
+[4.248s] Installed /root/ros_ws/build/control_py
+[4.249s] running symlink_data
+[4.251s] creating /root/ros_ws/install/control_py/share/ament_index
+[4.252s] creating /root/ros_ws/install/control_py/share/ament_index/resource_index
+[4.253s] creating /root/ros_ws/install/control_py/share/ament_index/resource_index/packages
+[4.254s] symbolically linking /root/ros_ws/build/control_py/resource/control_py -> /root/ros_ws/install/control_py/share/ament_index/resource_index/packages
+[4.255s] symbolically linking /root/ros_ws/build/control_py/package.xml -> /root/ros_ws/install/control_py/share/control_py
+[4.440s] Invoked command in '/root/ros_ws/build/control_py' returned '0': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/control_py/build --no-deps symlink_data
