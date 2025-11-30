@@ -1,3 +1,4 @@
 [console_scripts]
 combat = control_py.combat:main
+track_line = control_py.track_line:main
 

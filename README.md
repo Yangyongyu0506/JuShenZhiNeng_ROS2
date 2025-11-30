@@ -18,3 +18,5 @@ points:
 ```bash
 ros2 topic pub /ultrasonic/color std_msgs/msg/ColorRGBA "{r: 1}" --once
 ```
+## 2025.11.30
+一旦发现i2c驱动电机时读写出错而读取超声波时没有，那就是电池电压不够了，果断换电池。

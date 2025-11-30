@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'control_py'
 
@@ -10,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/config', glob('config/*')),
+        ('share/' + package_name + '/launch', glob('launch/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,7 +28,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'combat = control_py.combat:main'
+            'combat = control_py.combat:main',
+            'track_line = control_py.track_line:main',
         ],
     },
 )

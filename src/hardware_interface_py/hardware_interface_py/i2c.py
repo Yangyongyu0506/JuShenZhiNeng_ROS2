@@ -3,6 +3,7 @@ from rclpy.node import Node
 from rclpy.executors import SingleThreadedExecutor
 from smbus2 import SMBus, i2c_msg
 import numpy as np
+import math
 
 from trajectory_msgs.msg import JointTrajectory
 from sensor_msgs.msg import Range
@@ -261,7 +262,10 @@ class I2CNode(Node):
             speed = -speed
 
         index -= 1
-        speed = max(-100, min(100, speed))
+        if math.fabs(speed) < 50:
+            if speed != 0:
+                speed = speed / math.fabs(speed) * 50
+        speed = int(max(-100, min(100, speed)))
 
         reg = 31 + index  # 寄存器地址
 
