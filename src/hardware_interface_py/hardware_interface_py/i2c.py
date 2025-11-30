@@ -71,7 +71,7 @@ class I2CNode(Node):
         self.arm_name2id = {name: seq for name, seq in zip(servo_names, servo_sequence)}
 
         # 机械臂启动初始化位置
-        self.arm_set([90, 60, 180, 0, 90], servo_sequence, 'deg')
+        self.arm_set([85, 90, 180, 0, 90], servo_sequence, 'deg')
 
         # LED初始化
         self.sonar_set_led((0, 0, 0))

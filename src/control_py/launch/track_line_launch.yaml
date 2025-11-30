@@ -4,6 +4,9 @@ launch:
       exec: track_line
       name: track_line_node
       output: screen
+      param:
+        - name: track_color
+          value: 'black'
   - node:
       pkg: hardware_interface_py
       exec: i2c
