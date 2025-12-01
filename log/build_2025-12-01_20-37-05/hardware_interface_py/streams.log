@@ -1,0 +1,18 @@
+[3.051s] Invoking command in '/root/ros_ws/build/hardware_interface_py': PYTHONPATH=/root/ros_ws/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/hardware_interface_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/hardware_interface_py/build --no-deps symlink_data
+[3.807s] running develop
+[4.280s] running egg_info
+[4.281s] writing hardware_interface_py.egg-info/PKG-INFO
+[4.283s] writing dependency_links to hardware_interface_py.egg-info/dependency_links.txt
+[4.285s] writing entry points to hardware_interface_py.egg-info/entry_points.txt
+[4.286s] writing requirements to hardware_interface_py.egg-info/requires.txt
+[4.287s] writing top-level names to hardware_interface_py.egg-info/top_level.txt
+[4.294s] reading manifest file 'hardware_interface_py.egg-info/SOURCES.txt'
+[4.298s] writing manifest file 'hardware_interface_py.egg-info/SOURCES.txt'
+[4.304s] running build_ext
+[4.305s] Creating /root/ros_ws/install/hardware_interface_py/lib/python3.10/site-packages/hardware-interface-py.egg-link (link to .)
+[4.309s] Installing i2c script to /root/ros_ws/install/hardware_interface_py/lib/hardware_interface_py
+[4.310s] Installing usb_camera script to /root/ros_ws/install/hardware_interface_py/lib/hardware_interface_py
+[4.312s] 
+[4.312s] Installed /root/ros_ws/build/hardware_interface_py
+[4.313s] running symlink_data
+[4.448s] Invoked command in '/root/ros_ws/build/hardware_interface_py' returned '0': PYTHONPATH=/root/ros_ws/build/hardware_interface_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/hardware_interface_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/hardware_interface_py/build --no-deps symlink_data

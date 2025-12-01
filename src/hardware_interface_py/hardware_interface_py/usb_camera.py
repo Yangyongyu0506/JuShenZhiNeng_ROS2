@@ -7,7 +7,7 @@ from cv_bridge import CvBridge
 class CameraNode(Node):
     def __init__(self):
         Node.__init__(self, 'camera_pub')
-        self.declare_parameter('video_id', 1)
+        self.declare_parameter('video_id', 1) # remark: video_id -- 0
         self.declare_parameter('video_freq', 10)
         self.declare_parameter('cam_topic', 'camera')
         cam_index = self.get_parameter('video_id').value

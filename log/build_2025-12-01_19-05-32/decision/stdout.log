@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing decision.egg-info/PKG-INFO
+writing dependency_links to decision.egg-info/dependency_links.txt
+writing entry points to decision.egg-info/entry_points.txt
+writing requirements to decision.egg-info/requires.txt
+writing top-level names to decision.egg-info/top_level.txt
+reading manifest file 'decision.egg-info/SOURCES.txt'
+writing manifest file 'decision.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/install/decision/lib/python3.10/site-packages/decision.egg-link (link to .)
+Installing arm_grab_open_loop script to /root/ros_ws/install/decision/lib/decision
+Installing aruco_detect script to /root/ros_ws/install/decision/lib/decision
+Installing color_detect script to /root/ros_ws/install/decision/lib/decision
+Installing sonar_park script to /root/ros_ws/install/decision/lib/decision
+Installing track_line script to /root/ros_ws/install/decision/lib/decision
+
+Installed /root/ros_ws/build/decision
+running symlink_data

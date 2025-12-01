@@ -1,0 +1,42 @@
+[1.583s] Invoking command in '/root/ros_ws/build/control_py': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_ws/build/control_py/build
+[2.198s] running develop
+[2.602s] Removing /root/ros_ws/install/control_py/lib/python3.10/site-packages/control-py.egg-link (link to .)
+[2.709s] Invoked command in '/root/ros_ws/build/control_py' returned '0': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros_ws/build/control_py/build
+[2.713s] Invoking command in '/root/ros_ws/src/control_py': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_py build --build-base /root/ros_ws/build/control_py/build install --record /root/ros_ws/build/control_py/install.log --single-version-externally-managed install_data --force
+[3.287s] running egg_info
+[3.288s] writing ../../build/control_py/control_py.egg-info/PKG-INFO
+[3.289s] writing dependency_links to ../../build/control_py/control_py.egg-info/dependency_links.txt
+[3.289s] writing entry points to ../../build/control_py/control_py.egg-info/entry_points.txt
+[3.290s] writing requirements to ../../build/control_py/control_py.egg-info/requires.txt
+[3.291s] writing top-level names to ../../build/control_py/control_py.egg-info/top_level.txt
+[3.294s] reading manifest file '../../build/control_py/control_py.egg-info/SOURCES.txt'
+[3.296s] writing manifest file '../../build/control_py/control_py.egg-info/SOURCES.txt'
+[3.297s] running build
+[3.297s] running build_py
+[3.297s] creating /root/ros_ws/build/control_py/build
+[3.297s] creating /root/ros_ws/build/control_py/build/lib
+[3.298s] creating /root/ros_ws/build/control_py/build/lib/control_py
+[3.298s] copying control_py/track_line.py -> /root/ros_ws/build/control_py/build/lib/control_py
+[3.298s] copying control_py/__init__.py -> /root/ros_ws/build/control_py/build/lib/control_py
+[3.298s] copying control_py/combat.py -> /root/ros_ws/build/control_py/build/lib/control_py
+[3.298s] running install
+[3.299s] running install_lib
+[3.301s] creating /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py
+[3.301s] copying /root/ros_ws/build/control_py/build/lib/control_py/track_line.py -> /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py
+[3.301s] copying /root/ros_ws/build/control_py/build/lib/control_py/__init__.py -> /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py
+[3.302s] copying /root/ros_ws/build/control_py/build/lib/control_py/combat.py -> /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py
+[3.303s] byte-compiling /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py/track_line.py to track_line.cpython-310.pyc
+[3.306s] byte-compiling /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py/__init__.py to __init__.cpython-310.pyc
+[3.306s] byte-compiling /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py/combat.py to combat.cpython-310.pyc
+[3.307s] running install_data
+[3.308s] copying resource/control_py -> /root/ros_ws/install/control_py/share/ament_index/resource_index/packages
+[3.308s] copying package.xml -> /root/ros_ws/install/control_py/share/control_py
+[3.308s] copying config/color_lim_lab.yaml -> /root/ros_ws/install/control_py/share/control_py/config
+[3.308s] copying launch/track_line_launch.yaml -> /root/ros_ws/install/control_py/share/control_py/launch
+[3.309s] running install_egg_info
+[3.313s] Copying ../../build/control_py/control_py.egg-info to /root/ros_ws/install/control_py/lib/python3.10/site-packages/control_py-0.0.0-py3.10.egg-info
+[3.315s] running install_scripts
+[3.372s] Installing combat script to /root/ros_ws/install/control_py/lib/control_py
+[3.373s] Installing track_line script to /root/ros_ws/install/control_py/lib/control_py
+[3.373s] writing list of installed files to '/root/ros_ws/build/control_py/install.log'
+[3.475s] Invoked command in '/root/ros_ws/src/control_py' returned '0': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_py build --build-base /root/ros_ws/build/control_py/build install --record /root/ros_ws/build/control_py/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,18 @@
+[3.118s] Invoking command in '/root/ros_ws/build/control_py': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/control_py/build --no-deps symlink_data
+[3.816s] running develop
+[4.247s] running egg_info
+[4.248s] writing control_py.egg-info/PKG-INFO
+[4.249s] writing dependency_links to control_py.egg-info/dependency_links.txt
+[4.250s] writing entry points to control_py.egg-info/entry_points.txt
+[4.251s] writing requirements to control_py.egg-info/requires.txt
+[4.251s] writing top-level names to control_py.egg-info/top_level.txt
+[4.257s] reading manifest file 'control_py.egg-info/SOURCES.txt'
+[4.259s] writing manifest file 'control_py.egg-info/SOURCES.txt'
+[4.263s] running build_ext
+[4.263s] Creating /root/ros_ws/install/control_py/lib/python3.10/site-packages/control-py.egg-link (link to .)
+[4.266s] Installing combat script to /root/ros_ws/install/control_py/lib/control_py
+[4.266s] Installing track_line script to /root/ros_ws/install/control_py/lib/control_py
+[4.266s] 
+[4.267s] Installed /root/ros_ws/build/control_py
+[4.267s] running symlink_data
+[4.398s] Invoked command in '/root/ros_ws/build/control_py' returned '0': PYTHONPATH=/root/ros_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/control_py/build --no-deps symlink_data

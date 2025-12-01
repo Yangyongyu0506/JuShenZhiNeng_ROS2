@@ -1,0 +1,21 @@
+[3.065s] Invoking command in '/root/ros_ws/build/decision': PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/decision/build --no-deps symlink_data
+[3.781s] running develop
+[4.482s] running egg_info
+[4.485s] writing decision.egg-info/PKG-INFO
+[4.486s] writing dependency_links to decision.egg-info/dependency_links.txt
+[4.488s] writing entry points to decision.egg-info/entry_points.txt
+[4.489s] writing requirements to decision.egg-info/requires.txt
+[4.490s] writing top-level names to decision.egg-info/top_level.txt
+[4.496s] reading manifest file 'decision.egg-info/SOURCES.txt'
+[4.498s] writing manifest file 'decision.egg-info/SOURCES.txt'
+[4.503s] running build_ext
+[4.503s] Creating /root/ros_ws/install/decision/lib/python3.10/site-packages/decision.egg-link (link to .)
+[4.506s] Installing arm_grab_open_loop script to /root/ros_ws/install/decision/lib/decision
+[4.506s] Installing aruco_detect script to /root/ros_ws/install/decision/lib/decision
+[4.506s] Installing color_detect script to /root/ros_ws/install/decision/lib/decision
+[4.506s] Installing sonar_park script to /root/ros_ws/install/decision/lib/decision
+[4.507s] Installing track_line script to /root/ros_ws/install/decision/lib/decision
+[4.507s] 
+[4.508s] Installed /root/ros_ws/build/decision
+[4.508s] running symlink_data
+[4.685s] Invoked command in '/root/ros_ws/build/decision' returned '0': PYTHONPATH=/root/ros_ws/build/decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/decision/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/decision/build --no-deps symlink_data
